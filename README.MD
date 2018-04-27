@@ -45,4 +45,3 @@ Monitoring:
 1. Check http://localhost:8761/
 2. The dashboards displays which applications are live.
 
-Architecture Diagram is attached.
