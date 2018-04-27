@@ -1,0 +1,19 @@
+info:
+  component: Service Discovery Server
+
+server:
+  port: 8761
+
+logging:
+  level:
+    ROOT: INFO
+org.springframework.web: INFO
+
+eureka:
+  instance:
+    hostname: 127.0.1.1
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
